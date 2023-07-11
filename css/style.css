@@ -283,6 +283,11 @@
 
 /* ----------sect-4---------- */
 
+.section-4 {
+    background: var(--light-1, #FBFBFB);
+}
+
+
 .sect-4-subtitle {
     font-family: 'Inter';
     font-style: normal;
@@ -320,6 +325,7 @@
 }
 
 .sect-4-item {
+    position: relative;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -327,6 +333,7 @@
     line-height: normal;
     padding: 24px;
     width: 281px;
+    border-radius: 4px;
 }
 
 .sect-4-item:not(:last-child) {
@@ -335,6 +342,25 @@
 
 .sect-4-item:hover {
     color: var(--purple, #7E74F1);
+    background: var(--white, #afafbf);
+}
+
+.sect-4-item:hover::before {
+    content: url(../img/section-4-arow.svg);
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    transform: translate(0, -50%);
+}
+
+.sect-4-function-item {
+    color: var(--cinder-light, #656D72);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
 }
 
 /* ----------section-5---------- */
