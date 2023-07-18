@@ -21,3 +21,8 @@ button {
   outline: none;
   background: transparent;
 }
+
+img{
+  max-width: 100%;
+  display: block;
+}

@@ -285,6 +285,9 @@
 
 .section-4 {
     background: var(--light-1, #FBFBFB);
+    position: relative;
+    padding-top: 107px;
+    padding-bottom: 111px;
 }
 
 
@@ -353,7 +356,14 @@
     transform: translate(0, -50%);
 }
 
+.sect-4-function{
+    position: absolute;
+    top: 330px;
+    left: 545px;
+}
+
 .sect-4-function-item {
+    position: relative;
     color: var(--cinder-light, #656D72);
     font-family: Inter;
     font-size: 16px;
@@ -361,7 +371,20 @@
     font-weight: 400;
     line-height: normal;
     margin-bottom: 16px;
+    padding-left: 28px;
 }
+
+.sect-4-function-item::before{
+position: absolute;    
+content: '';
+width: 10px;
+height: 2px;
+background: var(--light-4, #D9D9D9);
+left: 0;
+top: 50%;
+}
+
+
 
 /* ----------section-5---------- */
 
