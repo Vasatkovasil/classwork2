@@ -866,7 +866,8 @@ top: 50%;
 
 .footer-text {
     margin: 0 auto;
-    width: 155px;
+    text-align: center;
+    width: 165px;
 }
 
 
